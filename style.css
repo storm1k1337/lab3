@@ -1,0 +1,22 @@
+body { display: flex; height: 100vh; }
+        #calculator { 
+            margin: auto; 
+            padding: 20px;
+            background: rgb(120, 70, 170);
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+        #display, button {
+            width: 100px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid gray;
+            border-radius: 5px;
+            box-shadow: 2px 2px gray;
+            font: bold 3em Impact;
+            outline: none;
+        }
+        #display {
+            width: 460px;
+            text-align: right;
+        }
